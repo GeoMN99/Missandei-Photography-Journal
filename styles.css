@@ -535,3 +535,45 @@ margin-bottom: 0.75rem;
     outline: none;
 }
 
+/* --- Pseudoclass - focus --- */
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: var(--gold);
+    box-shadow: 0 0 0 3px rgba(201, 168, 76, 0.18);
+}
+
+/* --- Pseudoclass - placeholder --- */
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: (var(--muted));
+    font-style: italic;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 120px;
+    overflow: auto;
+}
+
+.submit-btn {
+    display: inline-block;
+    align-self: flex-start;
+    padding: 0.85rem 2.2rem;
+    background-color: var(--gold);
+    color: var(--ink);
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border-radius: 4px;
+    border: 2px solid var(--ink);
+    cursor: pointer;
+    font-family: var(--ff-body);
+}
+
+/* --- Pseudoclass - hover --- */
+.submit-btn:hover {
+    background-color: var(--gold);
+    border-color: var(--gold);
+    color: var(--ink);
+}
