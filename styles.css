@@ -425,3 +425,58 @@ margin-bottom: 0.75rem;
     color: var(--cream);
 }
 
+/* ---Bio Section--- */
+.bio-section {
+    background-color: var(--cream);
+    padding: 7rem 2rem;
+}
+
+.bio-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    align-items: center;
+}
+
+.bio-text p {
+    margin-bottom: 1.1rem;
+    color: #3d3028;
+    font-size: 1rem;
+}
+
+.bio-facts li {
+    font-size: 0.9rem;
+    color: var(--brown);
+    padding: 0.5rem 0.9rem;
+    background-color: rgba(201, 168, 76, 0.1);
+    border-left: 3px solid var(--gold);
+    border-radius: 0 4px 4px 0;
+}
+
+.bio-photo-wrap {
+    position: relative;
+}
+
+.bio-photo {
+    width: 100%;
+    border-radius: 6px;
+    object-fit: cover;
+    aspect-ratio: 4 / 5;
+    box-shadow: 12px 20px 60px rgba(26, 22, 18, 0.2);
+}
+
+.bio-photo-badge {
+    position: absolute;
+    bottom: -1rem;
+    left: -1rem;
+    background-color: var(--gold);
+    color: var(--ink);
+    font-size: 0.85rem;
+    font-weight: 700;
+    font-size: 0.85rem;
+    padding: 0.6rem 1.2rem;
+    border-radius: 4px;
+}
+
