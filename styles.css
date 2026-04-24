@@ -270,3 +270,59 @@ margin-bottom: 0.75rem;
     object-fit: cover;
 }
 
+/* --- Pseudoclass - hover --- */
+.photo-card:hover img {
+    opacity:0.85;
+}
+
+.photo-info {
+    padding: 1rem;
+}
+
+.photo-cat {
+    display: block;
+    font-size: 0.65rem;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 0.3rem;
+}
+
+.photo-title {
+    font-family: var(--ff-display);
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--cream);
+}
+
+/* --- INTRO SECTION --- */
+.intro-section {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 7rem 2rem 5rem;
+}
+
+.intro-inner {
+    display: flex;
+    gap: 4rem;
+    align-items: flex-start
+}
+
+.intro-left {
+    min-width: 280px;
+}
+
+.intro-heading {
+    font-family: var(--ff-display);
+    font-size: 2.2rem;
+    font-weight: 900;
+    line-height: 1.2;
+}
+
+.intro-body p {
+    margin-bottom: 1.2rem;
+    color: #3d3028;
+    font-size: 1rem;
+}
+
