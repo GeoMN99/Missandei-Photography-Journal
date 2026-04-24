@@ -326,3 +326,102 @@ margin-bottom: 0.75rem;
     font-size: 1rem;
 }
 
+/* --- GALLERY SECTION --- */
+.gallery-section {
+    background-color: var(--ink);
+    color: var(--cream);
+    padding: 6rem 2rem;
+}
+
+.gallery-header {
+    max-width: 1200px;
+    margin: 0 auto 3rem;
+    border-bottom: 1px solid rgba(245, 240, 232, 0.1);
+    padding-bottom: 1.5rem;
+}
+
+.gallery-header .section-title {
+    color: var(--cream);
+    margin-bottom: 0;
+}
+
+.gallery-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.2rem;
+}
+
+/* --- Photo Card --- */
+.photo-card {
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: #111;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.photo-card img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+}       
+
+/* --- Pseudoclass - hover --- */
+.photo-card:hover img {
+    opacity:0.85;
+}   
+
+.photo-info {
+    padding: 1rem;
+}   
+
+.photo-cat {
+    display: block;
+    font-size: 0.65rem;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 0.3rem;
+}
+
+.photo-title {
+    font-family: var(--ff-display);
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--cream);
+}   
+
+/* --- Favourite List Section --- */
+.fav-list-wrap {
+    max-width: 1100px;
+    margin: 4rem auto 0;
+    padding-top: 2rem;
+    border-top: 1px solid rgba(245, 240, 232, 0.1);
+}
+
+.fav-list-wrap h3 {
+    font-family: var(--ff-display);
+    font-size: 1.1rem;
+    color: var(--gold);
+    margin-bottom: 1.2rem;
+}
+
+.fav-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem 3rem;
+}
+.fav-list li {
+    font-size: 0.92rem;
+    color: rgba(245, 240, 232, 0.75);
+    padding: 0.4rem 0;
+    border-bottom: 1px solid rgba(245, 240, 232, 0.07);
+}
+
+.fav-list li strong {
+    color: var(--cream);
+}
+
