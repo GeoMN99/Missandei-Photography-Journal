@@ -545,7 +545,7 @@ margin-bottom: 0.75rem;
 /* --- Pseudoclass - placeholder --- */
 .form-group input::placeholder,
 .form-group textarea::placeholder {
-    color: (var(--muted));
+    color: var(--muted);
     font-style: italic;
 }
 
@@ -576,4 +576,24 @@ margin-bottom: 0.75rem;
     background-color: var(--gold);
     border-color: var(--gold);
     color: var(--ink);
+}
+
+/* --- Footer --- */
+.site-footer {
+    background-color: var(--ink);
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.footer-logo {
+    font-size: 1.1rem;
+    color: var(--gold);
+    font-family: var(--ff-display);
+    margin-bottom: 0.5rem;
+}
+
+.footer-copy {
+    font-size: 0.85rem;
+    color: var(--muted);
+    margin-bottom: 0.3rem;
 }
