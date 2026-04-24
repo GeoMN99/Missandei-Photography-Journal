@@ -1,0 +1,52 @@
+/*---THROUGH THE LENS - Photography Portfolio Custom Stylesheet---*/
+
+/* --- CSS Variables --- */
+:root {
+    --cream: #f5f0e8;
+    --warm-white: #faf8f4;
+    --ink: #1a1612;
+    --brown: #5c3d2e;
+    --gold: #c9a84c;
+    --muted: #8a7c6e;
+
+    --ff-display: 'Playfair Display', Georgia, serif;
+    --ff-body: 'DM Sans', Helvetica, sans-serif;
+}
+
+/* --- Reset and Base --- */
+* , *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--ff-body);
+    background-color: var(--warm-white);
+    color: var(--ink);
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+em {
+    font-style: italic;
+    color: var(--brown);
+}
+
+strong {
+    font-weight: 700;
+}
