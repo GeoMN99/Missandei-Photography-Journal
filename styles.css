@@ -145,7 +145,7 @@ margin-bottom: 0.75rem;
 .hero-content {
     position: relative;
     z-index: 2;
-    padding: 6rem 2rem 4rem 8vx;
+    padding: 6rem 2rem 4rem 8vw;
 }
 
 .hero-tagline {
@@ -166,7 +166,7 @@ margin-bottom: 0.75rem;
 
 .hero-sub {
     font-size: 1.05rem;
-    color: var(rgba(245, 240, 232, 0.78));
+    color: rgba(245, 240, 232, 0.78);
     max-width: 480px;
     margin-bottom: 2.5rem;
 }
