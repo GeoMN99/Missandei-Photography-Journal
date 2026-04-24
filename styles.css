@@ -229,3 +229,30 @@ margin-bottom: 0.75rem;
     font-size: 1rem;
 }
 
+/* --- GALLERY SECTION --- */
+.gallery-section {
+    background-color: var(--ink);
+    color: var(--cream);
+    padding: 6rem 2rem;
+}
+
+.gallery-header {
+    max-width: 1200px;
+    margin: 0 auto 3rem;
+    border-bottom: 1px solid rgba(245, 240, 232, 0.1);
+    padding-bottom: 1.5rem;
+}
+
+.gallery-header .section-title {
+    color: var(--cream);
+    margin-bottom: 0;
+}
+
+.gallery-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.2rem;
+}
+
