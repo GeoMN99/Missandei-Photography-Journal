@@ -480,3 +480,58 @@ margin-bottom: 0.75rem;
     border-radius: 4px;
 }
 
+/* --- CONTACT SECTION --- */
+.contact-section {
+    background-color: var(--warm-white);
+    padding: 7rem 2rem;
+}
+
+.contact-inner {
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.contact-sub {
+    font-size: 1rem;
+    color: var(--muted);
+    margin-bottom: 3rem;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.form-row {
+    display: flex;
+    gap: 1.2rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.45rem;
+}
+
+.form-group label {
+    font-size: 0.76rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-overflow: uppercase;
+    color: var(--brown);
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 0.75rem 1rem;
+    border: 1px solid rgba(92, 61, 46, 0.22);
+    border-radius: 4px;
+    font-size: 0.95rem;
+    font-family: var(--ff-body);
+    color: var(--ink);
+    background-color: var(--cream);
+    outline: none;
+}
+
