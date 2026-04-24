@@ -166,7 +166,7 @@ margin-bottom: 0.75rem;
 
 .hero-sub {
     font-size: 1.05rem;
-    color: var rgba(245, 240, 232, 0.78);
+    color: var(rgba(245, 240, 232, 0.78));
     max-width: 480px;
     margin-bottom: 2.5rem;
 }
@@ -181,5 +181,21 @@ margin-bottom: 0.75rem;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     border-radius: 4px;
+}
+
+/* ---Pseudoclass - hover */
+.cta-btn:hover {
+    background-color: transparent;
+    border: 2px solid var(--gold);
+    color: var(--gold);
+}
+
+.hero-scroll-hint {
+    position: absolute;
+    bottom: 2rem;
+    right: 3rem;
+    font-size: 0.75rem;
+    letter-spacing: 0.15em;
+    color: rgba(245, 240, 232, 0.5);
 }
 
